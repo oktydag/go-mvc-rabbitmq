@@ -2,10 +2,10 @@ package controller
 
 import (
 	"encoding/json"
-	viewmodel "go-mvc-rabbitmq/viewmodel"
 	"log"
 	"net/http"
 
+	"github.com/oktydag/go-mvc-rabbitmq/viewmodel"
 	"github.com/streadway/amqp"
 )
 

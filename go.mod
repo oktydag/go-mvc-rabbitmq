@@ -1,4 +1,4 @@
-module go-mvc-rabbitmq
+module github.com/oktydag/go-mvc-rabbitmq
 
 go 1.15
 

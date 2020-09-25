@@ -2,8 +2,10 @@ package controller
 
 import (
 	"encoding/json"
-	viewmodel "go-mvc-rabbitmq/viewmodel"
+
 	"net/http"
+
+	"github.com/oktydag/go-mvc-rabbitmq/viewmodel"
 )
 
 func giveFive() http.HandlerFunc {

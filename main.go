@@ -1,9 +1,10 @@
 package main
 
 import (
-	controller "go-mvc-rabbitmq/controller"
 	"log"
 	"net/http"
+
+	"github.com/oktydag/go-mvc-rabbitmq/controller"
 )
 
 func main() {
